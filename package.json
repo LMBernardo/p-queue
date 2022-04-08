@@ -11,7 +11,7 @@
 		"node": ">=12"
 	},
 	"scripts": {
-		"build": "del dist && tsc",
+		"build": "del /q dist && tsc",
 		"test": "xo && npm run build && nyc ava",
 		"bench": "node --loader=ts-node/esm bench.ts",
 		"prepare": "npm run build"
