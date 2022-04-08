@@ -43,7 +43,7 @@
 		"bluebird"
 	],
 	"dependencies": {
-		"eventemitter3": "^4.0.7",
+		"eventemitter3": "github:LMBernardo/eventemitter3",
 		"p-timeout": "^5.0.2"
 	},
 	"devDependencies": {
